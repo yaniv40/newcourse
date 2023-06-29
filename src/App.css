@@ -1,0 +1,79 @@
+
+#logodiv{
+  animation: header 7s 2;
+}
+
+
+table,td{
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+table{
+  width: 700px;
+  margin: auto;
+}
+
+
+
+
+.adobe{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  animation: header 4s 2;
+
+}
+#logosv{
+  animation: header 7s 3;
+}
+@keyframes header {
+  from{
+   margin-right: 50%;
+  }
+  to{
+   margin-left:50%;
+
+  }
+  
+  }
+
+
+.button{
+  transition: 0.22s;
+  width:150px;
+  text-align:center;
+  height:80px;
+  border:'2px solid blue';
+  color:white;
+  background-color:rgb(22, 20, 194);
+  border-radius:11px;
+  margin-left: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+
+.button:hover{
+  background-color: #6e60f0; /* Green */
+  color: white;
+  animation: butt 600ms both ;
+}
+
+@keyframes butt {
+from{
+  width:150px;
+  height:80px;
+}
+to{
+  width:170px;
+  height:80px;
+}
+
+}
+
+
+
+
+
+
