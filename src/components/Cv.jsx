@@ -32,16 +32,16 @@ export default function Cv() {
 <h2  style={{textAlign:'center'}}>המכללות שנבדקו - hakeru,pitango,hit,jhon brice  </h2>
 <table>
   <tr>
-    <td style={{fontFamily:'monospace',backgroundColor:'Highlight' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
+    <td style={{fontFamily:'monospace',backgroundColor:'rgb(56, 99, 163)' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
       מכללה
     </td>
-    <td style={{fontFamily:'monospace',backgroundColor:'Highlight' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
+    <td style={{fontFamily:'monospace',backgroundColor:'rgb(56, 99, 163)' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
 שעות
     </td>
-    <td style={{fontFamily:'monospace',backgroundColor:'Highlight' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
+    <td style={{fontFamily:'monospace',backgroundColor:'rgb(56, 99, 163)' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
       תכני הקורס
     </td>
-    <td style={{fontFamily:'monospace',backgroundColor:'Highlight' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
+    <td style={{fontFamily:'monospace',backgroundColor:'rgb(56, 99, 163)' ,color:'white' ,fontSize:'35px',padding:'15px'}}>
 התמחות
     </td>
   </tr>
@@ -179,8 +179,10 @@ Invision
 <hr />
 <h1 style={{textAlign:'center'}}>
   
-  ממליץ על בניית קורס שיהיה מורכב מ27 מפגשים בו ניתן לתת כלים לתלמידים ואף להביאם למצב בו יצאו עם לפחות 3 פרוייקטים מהקורס.
-  <button onClick={()=>{nav('/details')}} style={{padding:'20px',fontSize:'40px',backgroundColor:'Highlight',color:'whitesmoke',borderRadius:'25px',textAlign:'center'}}>לחץ לקבלת תמצית תכני הקורס המומלצים</button>
+ ממליץ על בניית קורס שיהיה מורכב מ 24-22  מפגשים בו ניתן לתת כלים לתלמידים ואף להביאם למצב בו יצאו עם לפחות 3 פרוייקטים מהקורס.
+ <br />
+ <br />
+  <button onClick={()=>{nav('/details')}} style={{padding:'20px',fontSize:'40px',backgroundColor:'Highlight',color:'whitesmoke',borderRadius:'25px'}}>לחץ לקבלת תמצית תכני הקורס המומלצים</button>
 </h1>
 
     </div>

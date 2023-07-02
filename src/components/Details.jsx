@@ -58,14 +58,14 @@ export default function Details() {
       topic: 'עיצוב אתרים',
       duration: 4.5,
       objectives: 'עיצוב חווית משתמש (UX) וממשק משתמש (UI)עיצוב לאתרים',
-      software: 'Adobe XD, Sketch, Figma'
+      software: 'Figma'
     },
     {
       session: 9,
       topic: 'עיצוב אפליקציות לניידים',
       duration: 4.5,
       objectives: 'עיצוב חווית משתמש (UX) וממשק משתמש (UI)עיצוב אפליקציות ',
-      software: 'Adobe XD, Sketch, Figma'
+      software: 'Figma'
     },
     {
       session: 10,
@@ -93,7 +93,7 @@ export default function Details() {
       topic: 'עיצוב למדיה דיגיטלית',
       duration: 4.5,
       objectives: 'עיצוב גרפי ואנימציה למדיה דיגיטלית',
-      software: 'Adobe After Effects, Adobe Illustrator, Figma'
+      software: ' Adobe Illustrator, Figma'
     },
     {
       session: 14,
@@ -118,76 +118,55 @@ export default function Details() {
     },
     {
       session: 17,
-      topic: 'עיצוב ממשק משתמש מתקדם',
-      duration: 4.5,
-      objectives: 'עיצוב ממשק משתמש מתקדם עם שימוש בכלים מתקדמים',
-      software: 'Adobe XD, Sketch, Figma'
-    },
-    {
-      session: 18,
       topic: 'גרפיקה לתוספי תוכנה',
       duration: 4.5,
-      objectives: 'עיצוב גרפי ואיור וגרפיקה לתוספי תוכנה',
+      objectives: 'עיצוב גרפי ואיור ,גרפיקה לתוספי תוכנה',
       software: 'Adobe Illustrator, Adobe Photoshop, Figma'
     },
     {
-      session: 19,
+      session: 18,
       topic: 'אנימציה ותנועה בעיצוב',
       duration: 4.5,
       objectives: 'יכולות התנועה והאנימציה בעיצוב גרפי',
-      software: 'Adobe After Effects, Figma, Principle'
+      software: ' Figma, Principle'
     },
     {
-      session: 20,
+      session: 19,
       topic: 'עיצוב תערוכות ואירועים',
       duration: 4.5,
       objectives: 'עיצוב תערוכות, אירועים ותצוגות גרפיות',
-      software: 'Adobe Photoshop, Adobe Illustrator, Sketch'
+      software: 'Adobe Photoshop, Adobe Illustrator'
     },
     {
-      session: 21,
+      session: 20,
       topic: 'עיצוב חבילות מוצרים',
       duration: 4.5,
       objectives: 'עיצוב גרפי ואריזות לחבילות מוצרים',
-      software: 'Adobe Illustrator, Adobe Photoshop, Sketch'
+      software: 'Adobe Illustrator, Adobe Photoshop'
     },
     {
-      session: 22,
-      topic: 'עיצוב אינטראקציה וחווית משתמש מתקדמת',
-      duration: 4.5,
-      objectives: 'עיצוב אינטראקציה וחווית משתמש מתקדמת',
-      software: 'Adobe XD, Figma, Sketch'
-    },
-    {
-      session: 23,
+      session: 21,
       topic: 'עיצוב וידאו וגרפיקת מותג',
       duration: 4.5,
       objectives: 'עיצוב וידאו, גרפיקת מותג ופרזנטציה גרפית',
-      software: 'Adobe After Effects, Adobe Premiere Pro, Figma'
+      software: ' Adobe Premiere , Figma'
     },
     {
-      session: 24,
-      topic: 'שיפור עיצובים ופיתוח תכנותי',
+      session: 22,
+      topic:'AI סדנת',
       duration: 4.5,
-      objectives: 'שיפור עיצובים ופיתוח תכנותי עבור עיצוב גרפי',
-      software: ''
+      objectives: 'עיצוב אתרים,אנימציות,פוסטים ותמונות על ידי בינה מלאכותית',
+      software: 'MIDJOURNEY'
     },
     {
-      session: 25,
+      session: 23,
       topic: 'עיצוב תקשורתי',
       duration: 4.5,
       objectives: 'עיצוב תקשורתי ופרסומות',
-      software: 'Adobe Photoshop, Adobe Illustrator, Sketch'
+      software: 'Adobe Photoshop, Adobe Illustrator'
     },
     {
-      session: 26,
-      topic: 'הכנת תיק עבודות',
-      duration: 4.5,
-      objectives: 'הכנת תיק עבודות ',
-      software: ''
-    },
-    {
-      session: 27,
+      session: 24,
       topic: 'סדנת חיפוש עבודה',
       duration: 4.5,
       objectives: ' קאוצינג ',
@@ -197,6 +176,8 @@ export default function Details() {
   return (
     <div style={{textAlign:'center'}}>
             <h2>Graphic Design Course </h2>
+            <h2>24 sessions</h2>
+            <h2>108 hours </h2>
       {course.map((val, index) => (
         <div key={index}>
           <h3 style={{color:'blue'}}>{val.session}</h3>

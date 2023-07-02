@@ -8,13 +8,19 @@ table,td{
   border: 1.5px solid black;
   border-collapse: collapse;
   text-align: center;
+  color: aliceblue;
+  text-shadow: 2px 2px black;
 }
 table{
   width: 700px;
   margin: auto;
+  background-image: linear-gradient(to bottom ,rgb(56, 99, 163),rgb(17, 49, 107));
+
 }
 
-
+.headerLogo{
+  background-image: linear-gradient(to right ,rgb(45, 184, 137) ,rgb(189, 62, 83));
+}
 
 
 .adobe{
