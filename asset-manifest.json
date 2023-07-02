@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/newcourse/static/css/main.16cc9b4e.css",
-    "main.js": "/newcourse/static/js/main.c90a4a83.js",
+    "main.css": "/newcourse/static/css/main.a342f146.css",
+    "main.js": "/newcourse/static/js/main.919ed17a.js",
     "static/js/787.9dfd55f1.chunk.js": "/newcourse/static/js/787.9dfd55f1.chunk.js",
     "static/media/header.jpg": "/newcourse/static/media/header.74896d178c51b5e4f578.jpg",
     "index.html": "/newcourse/index.html",
-    "main.16cc9b4e.css.map": "/newcourse/static/css/main.16cc9b4e.css.map",
-    "main.c90a4a83.js.map": "/newcourse/static/js/main.c90a4a83.js.map",
+    "main.a342f146.css.map": "/newcourse/static/css/main.a342f146.css.map",
+    "main.919ed17a.js.map": "/newcourse/static/js/main.919ed17a.js.map",
     "787.9dfd55f1.chunk.js.map": "/newcourse/static/js/787.9dfd55f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16cc9b4e.css",
-    "static/js/main.c90a4a83.js"
+    "static/css/main.a342f146.css",
+    "static/js/main.919ed17a.js"
   ]
 }
